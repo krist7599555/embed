@@ -1,6 +1,6 @@
 rm -rf ./dist
 mkdir dist
-for file in "package.json index.js ecosystem.config.js pages"
+for file in "package.json index.js ecosystem.config.js yarn.lock"
 do
   cp -R $file ./dist
 done
